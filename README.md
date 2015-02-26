@@ -32,7 +32,7 @@ If you are looking to do more than just use the service as-is, then you'll need 
 
 As this is emulating the set of dogs in the park there are a couple of interesting things to watch for in Dog and DogSensorService. You'll notice that in the constructor for DogSensorService we create and then spin up a thread for each dog. This populates our collection and keeps our dogs moving around in the park. You'll then want to take another look at Dog and its run() method. For as long as the service is running, each dog will continue to have its properties updated.
 
-One last thing, a reference to each of the dogs is placed in a collection within DogSensorService. Notice that the collection used is a ConcurrentHashMap. We need to keep this thread safe as the servlet has been designated as a servlet and many threads may end up accessing the collection (it should be fine, we're just being cautious).
+One last thing, a reference to each of the dogs is placed in a collection within DogSensorService. Notice that the collection used is a ConcurrentHashMap. We need to keep this thread safe as the servlet has been designated as a singleton and many threads may end up accessing the collection (it should be fine, we're just being cautious).
 
 Give me a shout if you have any questions about the code or the project.
 
