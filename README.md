@@ -10,7 +10,7 @@ Each dog in the park is provided an id that is unique to the park. They follow t
 ##Using the SUP Dogs Service
 If you're wanting to use the service as-is, it is easy to get started. The interface provides two simple GET methods. You can sample them using:
 
-http://sup-dog-park.azurewebsites.net/sensorup/dogs/id013 : Interested in getting information for a specific dog? Then try this approach. Just add the dog ID to the URL and it'll give you the details for just that one dog. The data is returned as a JSON object. For example: "{"id":"id013","heartRate":91,"temperature":38.35852115673793,"location":{"x":27,"y":63}}"
+http://sup-dog-park.azurewebsites.net/sensorup/dogs/id013 : Interested in getting information for a specific dog? Then try this approach. Just add the dog ID to the URL and it'll give you the details for just that one dog. The data is returned as a JSON object. For example: {"id":"id013","heartRate":91,"temperature":38.35852115673793,"location":{"x":27,"y":63}}
 
 http://sup-dog-park.azurewebsites.net/sensorup/dogs  : Using this URL will provide you with the current status for all of the dogs in the park. The data is returned as a JSON array (the example currently returns data on 100 dogs): 
 [{"id":"id013","heartRate":118,"temperature":38.382040925228594,"location":{"x":40,"y":84}},{"id":"id084","heartRate":123,"temperature":38.38457824664712,"location":{"x":39,"y":68}},
