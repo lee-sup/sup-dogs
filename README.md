@@ -7,7 +7,7 @@ This first version (v0.0.1) of the project, emulates a pack of dogs being montio
 
 Each dog in the park is provided an id that is unique to the park. They follow the format of idXXX where x is a value from 0 to 9. For example, valid IDs look like id005, id014 and id890.
 
-##Using the SUP Dogs Service
+##Using the SUP Dogs Service   
 If you're wanting to use the service as-is, it is easy to get started. The interface provides two simple GET methods. You can sample them using:
 
 http://sup-dog-park.azurewebsites.net/sensorup/dogs/id013 : Interested in getting information for a specific dog? Then try this approach. Just add the dog ID to the URL and it'll give you the details for just that one dog. The data is returned as a JSON object. For example: {"id":"id013","heartRate":91,"temperature":38.35852115673793,"location":{"x":27,"y":63}}
