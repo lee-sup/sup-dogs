@@ -34,5 +34,7 @@ As this is emulating the set of dogs in the park there are a couple of interesti
 
 One last thing, a reference to each of the dogs is placed in a collection within DogSensorService. Notice that the collection used is a ConcurrentHashMap. We need to keep this thread safe as the servlet has been designated as a singleton and many threads may end up accessing the collection (it should be fine, we're just being cautious).
 
+New Feature coming: Secure Login.
+
 Give me a shout if you have any questions about the code or the project.
 
