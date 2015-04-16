@@ -1,7 +1,7 @@
 # sup-dogs
 What Sup Dogs?
 
-With today's modern, connected world, sensors are everywhere (or should be) and we owe it to ourselves to make sure that our dogs are safe and active within off-leash areas. This simple REST service provides you with the information related to a group of dogs being montiored within a bounded dog park.
+With today's modern, connected world, sensors are everywhere (or should be) and we owe it to ourselves to make sure that our dogs are safe and active within off-leash areas. This simple REST service provides you with the information related to a group of dogs being montiored within a bounded dog park. 
 
 This first version (v0.0.1) of the project, emulates a pack of dogs being montiored within an off-leash area. The monitoring is done in real-time and keeps track of vital information including location, heart rate and temperature.
 
